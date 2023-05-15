@@ -1,12 +1,13 @@
 // Given a string, you need to test if it is palindrome or not. 
-// If the string is palindrome print “YES”, otherwise print “NO”.
+//If the string is palindrome print “YES”, otherwise print “NO”.
 
+//TC : O(len) len = length of string
+//SC : O(1)
 
-// TC : O(len) len = length of string
-// SC : O(1)
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 
 // Return 1 if the string is palindrome, else return 0
 int isPalindrome(char *str) {
@@ -41,11 +42,12 @@ int main()
 }
 
 // Sample Input
+
 // 2
 // Coding
 // cooc
 
 // Sample Output
+
 // NO
 // YES
-
